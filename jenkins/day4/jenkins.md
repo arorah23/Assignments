@@ -6,18 +6,18 @@
             SSH plugin >> done
             Git plugin >> done
 
- ![Assignment2:Complete]()
+ ![Assignment2:Complete](Assignments/media/day4/keyless.png)
         Enable password less login between jenkins & root user>> paste the public key of user in authorised key files under .ssh
         Check Global configuration and provide SSH remote host(root) details >> done
 
     Assignment3:Complete
-   ![Create a tag creator Jenkins Job]()
+   ![Create a tag creator Jenkins Job](Assignments/media/day4/tag.png )
     Job will create tag on your forked repo.
     Job should accept 2 parameters
             SRC_BRANCH
             TAG_NAME
 
-  ![Assignment4:Complete]()
+![Assignment4:Complete](Assignments/media/day4/file transfer.png)
         Sync your forked jenkins repo with https://github.com/ot-training/jenkins.git (using multiple remote).
         Create a Deployer Jenkins Job(static-code-deployment).
         It will checkout code from https://github.com//jenkins.git (your forked repo).
