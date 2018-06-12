@@ -1,5 +1,6 @@
-#Install below plugins#
--Maven integration plugin  
+#Install below plugins
+
+    -Maven integration plugin  
     -Checkstyle Plug-in  
     -FindBugs Plug-in  
     -Static Analysis Collector Plug-in  
