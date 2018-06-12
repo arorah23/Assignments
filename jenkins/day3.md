@@ -11,8 +11,8 @@
 ###Install below softwares under Global tool configuration###
 
    ![Maven | Maven 3.5.2](/media/maven.png)  
-   ![Java | You need Oracle account for same | JDK 8u162](https://github.com/arorah23/Assignments/tree/master/media/jdk.png)  
-   ![ Git | You need to manually install git first](https://github.com/arorah23/Assignments/tree/master/media/git.png)  
+   ![Java | You need Oracle account for same | JDK 8u162](/media/jdk.png)  
+   ![ Git | You need to manually install git first](/media/git.png)  
 
 
 
@@ -22,7 +22,7 @@
     -Provide git repository  
     -Use clean compile as target  
 
-![Done](https://github.com/arorah23/Assignments/tree/master/media/codestability.png)
+![Done](/media/codestability.png)
 
 
 
@@ -32,7 +32,7 @@
     -Provide git repository https://github.com/OpsTree/ContinuousIntegration  
     -Use clean compile findbugs:findbugs checkstyle:checkstyle as target  
 
-![Done](https://github.com/arorah23/Assignments/tree/master/media/stability.png)
+![Done](/media/stability.png)
 
 
 
@@ -43,7 +43,7 @@
     -Provide git repository https://github.com/OpsTree/ContinuousIntegration  
     -Use clean compile cobertura:cobertura as target  
 
-![Done](https://github.com/arorah23/Assignments/tree/master/media/cobertura.png)
+![Done](/media/cobertura.png)
 
 
 
