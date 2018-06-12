@@ -10,7 +10,7 @@
 
 ###Install below softwares under Global tool configuration###
 
-   ![Maven | Maven 3.5.2](/arorah23/Assignments/tree/master/media/maven.png)  
+   ![Maven | Maven 3.5.2](/media/maven.png)  
    ![Java | You need Oracle account for same | JDK 8u162](https://github.com/arorah23/Assignments/tree/master/media/jdk.png)  
    ![ Git | You need to manually install git first](https://github.com/arorah23/Assignments/tree/master/media/git.png)  
 
