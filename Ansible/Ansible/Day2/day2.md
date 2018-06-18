@@ -7,7 +7,7 @@
 Perform the following operations using ad-hoc commands and ansible modules :
 
 1. Fetch and display to STDOUT Ansible facts using the `setup` module.
-![](media/Setupmodule.png)
+![]()(media/Setupmodule.png)
 2. Fetch and display only the "virtual" subset of facts for each host.
 ![](media/factsmodule.png)
 3. Fetch and display the value of fully qualified domain name (FQDN) of each host from their Ansible facts.
