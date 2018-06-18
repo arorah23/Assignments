@@ -3,7 +3,7 @@
 ####Perform the following operations using ad-hoc commands and ansible modules :  
 
 ####Fetch and display to STDOUT Ansible facts using the setup module.  
-![]()(media/Setupmodule.png)  
+![](media/Setupmodule.png)  
 
 ####Fetch and display only the "virtual" subset of facts for each host.  
 ![](media/factsmodule.png)
