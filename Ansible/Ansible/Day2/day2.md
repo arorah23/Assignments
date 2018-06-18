@@ -6,13 +6,13 @@
 
 Perform the following operations using ad-hoc commands and ansible modules :
 
-1. Fetch and display to STDOUT Ansible facts using the `setup` module.
+1. Fetch and display to STDOUT Ansible facts using the `setup` module.  
 ![]()(media/Setupmodule.png)
-2. Fetch and display only the "virtual" subset of facts for each host.
+2. Fetch and display only the "virtual" subset of facts for each host.  
 ![](media/factsmodule.png)
-3. Fetch and display the value of fully qualified domain name (FQDN) of each host from their Ansible facts.
+3. Fetch and display the value of fully qualified domain name (FQDN) of each host from their Ansible facts.  
 ![](media/3Fqdn.png)
-4. Display the uptime of all hosts using the `command` module.
+4. Display the uptime of all hosts using the `command` module.  
 ![](media/4uptime.png)
 5. Ping all hosts **except** the 'control' host using the `--limit` option
 ![](media/limitping.png)
