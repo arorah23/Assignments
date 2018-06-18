@@ -5,7 +5,7 @@
 -- sudo pip install ansible   
 
 ####Display the Ansible version and man page to STDOUT.  
-![ansiblepng](/media/ansiblev.png)
+![ansiblepng](media/ansiblev.png)
 
 ####Check all the possible parameters you need to know in ansible.cfg file.
 Well there are multiple parameters about which we need to know, some of the basic parameters are below.
@@ -26,13 +26,13 @@ module_lang    = C
 module_set_locale = False
 
 ####Ansible Inventory: Check the default inventory file for ansible control master and use inventory, run ansible ping commands on various inventory groups. Try this on minimum of two virtual machines.(You can use any of these Docker/Vagrant)  
-![](/media/inventory.png)
+![](media/inventory.png)
 
 ####In ~/.ansible.cfg file (create the file if it doesn't exist already) do the following:
 
 #####Create a new directory ~/.ansible/retry-files and set retry_files_save_path to it.
 
-![](/media/pathchanged.png)
+![](media/pathchanged.png)
 
 ####Set the Ansible system forks to 10
 ![](media/fork10.png)
