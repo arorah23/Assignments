@@ -5,7 +5,7 @@
 -- sudo pip install ansible   
 
 ####Display the Ansible version and man page to STDOUT.  
-![](https://github.com/arorah23/Assignments/tree/master/Ansible/Ansible/Day1/media/ansiblev.png)
+![ansiblepng](https://github.com/arorah23/Assignments/tree/master/Ansible/Ansible/Day1/media/ansiblev.png)
 
 ####Check all the possible parameters you need to know in ansible.cfg file.
 Well there are multiple parameters about which we need to know, some of the basic parameters are below.
