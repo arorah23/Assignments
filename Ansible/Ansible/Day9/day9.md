@@ -17,7 +17,8 @@
 
 #### Enable only port 8080 and 8081 on the node machines.
 ![](media/step4.png)
-![](port.yml)
+
+![](Day9/port.yml)
 #### Again Check for open ports and append in same file with current date and time.
 ![](step2.png)
 
