@@ -18,7 +18,7 @@
 #### Enable only port 8080 and 8081 on the node machines.
 ![](media/step4.png)
 
-![](Day9/port.yml)
+![https://github.com/arorah23/Assignments/tree/master/Ansible/Ansible/Day9/port.yml]()
 #### Again Check for open ports and append in same file with current date and time.
 ![](step2.png)
 
