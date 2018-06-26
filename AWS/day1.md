@@ -13,7 +13,8 @@ Task 1
  > Create Elastic IP for Private Subnet and assign it.
  > Click Create VPC
  > VPC created Successfully.
-![](media/Linuxp)
+ 
+![](media/Linuxp.png)
 
 Task 2
 
@@ -30,15 +31,15 @@ Task 2
 Do the above steps to launch both Private and Public
 
 ##Public Instance.
-![](media/WindowsAWS)
+![](media/WindowsAWS.png)
 
 ##Private Instance:
 
-![](media/Linuxp)
+![](media/Linuxp.png)
 
 ##Ping worked between Private and public Instance.
 
-![](media/windowsrdp)
-![](media/Pingsuccessful)
+![](media/windowsrdp.png)
+![](media/Pingsuccessful.png)
 
 
