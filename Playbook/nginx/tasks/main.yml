@@ -1,6 +1,0 @@
----
-# Tasks file for nginx
-- name: "Installing Nginx"
-  include_tasks: ubuntu.yml
-  when: ansible_os_family == Debian
-

@@ -1,5 +1,0 @@
----
-- hosts: localhost
-  become_user: root
-  roles:
-    - nginx

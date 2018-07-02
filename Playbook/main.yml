@@ -1,7 +1,0 @@
----
- - hosts: localhost
-   become_user: root
-   gather_facts: true
-   roles:
-     - nginx
-
