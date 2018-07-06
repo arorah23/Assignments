@@ -51,4 +51,4 @@ Now last but not the least step
 - ![](media/7.png) 
 - You can create one more record to route hit on himanshu-opstree.ml to www.himanshu-opstree.ml
 - All set :)
-![](media/8.png)
+![](media/8..png)
