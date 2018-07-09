@@ -22,25 +22,25 @@
 - Go to your AWS account, in the services choose Route 53  
 - There you will get multiple options, but as we are migrating our site we have to choose DNS Management  
 - over there create a new hosted zone: keep the name of zone as your Domain name which you registered > choose the zone type as public.  
-![Name the hosted zone as your domain name](/media/1Hostedzone.png)
+![Name the hosted zone as your domain name](media/1Hostedzone.png)
 
 - It will automatically create 2 set of records for you.  
 - We have to use the record with type NS(name space).  
 - Copy the values of the name space, and go to Freenom.  
-![](/media/2.png)
+![](media/2.png)
 - In Freenom, go to: Services> My Domain > Manage Domain >> Management Tools > Nameservers.  
-![](/media/3.png)
-![](/media/4.png)
+![](media/3.png)
+![](media/4.png)
 
 - Paste the name servers one by one.  
-![](/media/5.png)
+![](media/5.png)
 - Now once you change the name server it would take minimum 15-20 minutes and Max 24 hours to migrate it.  
  
 Host a static website using s3 bucket.
 
 - create a S3 bucket.
 - Once Bucket is created open the bucket and in the properties option choose static website hosting
-![](/media/6.png)
+![](media/6.png)
 - enter the name of the index document
 - Upload the index file in bucket
 
@@ -48,7 +48,7 @@ Now last but not the least step
 
 - Go to Route 53 > Hosted zones> create Record set for alias of bucket
 - This will route the hit on www.himanshu-opstree.ml to the bucket and serve the content
-- ![](/media/7.png) 
+- ![](media/7.png) 
 - You can create one more record to route hit on himanshu-opstree.ml to www.himanshu-opstree.ml
 - All set :)
-![](/media/8.png)
+![](media/8..png)
