@@ -9,24 +9,24 @@ Once you move the sudoers file you won't be able to use sudo
 Fix>>
 
 1. Shutdown the instance.  
-![](/media/1.Shutdown.png)
+![](media/1.Shutdown.png)
 
 2. Detach the storage device.
 
-![](/media/2Detach.png)  
+![](media/2Detach.png)  
 
 3. Create a new EC2 instance and attach the corrupted volume to it.
 
-![](/media/3Attach.png)  
+![](media/3Attach.png)  
 
 4. Mount the drive and edit the sudoers file of corrupted volume.  
-![](/media/4editfile.png)
+![](media/4editfile.png)
 
 5. Attache the volume to previous instance.  
-![](/media/5Attach.png)
+![](media/5Attach.png)
 
 6. Try now
-![](/media/6ssh.png)  
+![](media/6ssh.png)  
 
 > issue resolved
 
@@ -64,17 +64,17 @@ ansible-playbook main.yml
 
 ![Role](https://github.com/arorah23/Assignments/tree/master/Playbook)
 
-![](/media/Task2.1.png)
-![](/media/Task2.1.1.png)
+![](media/Task2.1.png)
+![](media/Task2.1.1.png)
 
 
 ### Task 3
 > write a jobDsl to start stop this instance through jenkins  
 
-![DSL JOB](/media/Task3.png)
-![Output](/media/Task3.1.png)
-![](/media/Task3.3.png)
-![](/media/Task4.png)
+![DSL JOB](media/Task3.png)
+![Output](media/Task3.1.png)
+![](media/Task3.3.png)
+![](media/Task4.png)
 #
   NOTE!
   - Make Documentation: Done
