@@ -1,0 +1,78 @@
+Assignment -1
+
+Create account on each
+
+Github
+Gitlab
+Bitbucket
+
+Status: Done
+
+
+
+
+
+
+Try to findout key features and major differences between all.
+
+Github
+
+
+GitHub was launched in 2008. It is git based repository hosting platform.
+
+
+Is only hosts projects that use the Git VCS
+
+
+It is free for public repositeries and for private one it is paid.
+
+
+GitHub is written using Ruby and Erlang
+
+
+It has something called Gists(a way to share code snippets)
+
+
+We can decide read or write access to a repository.
+
+
+It’s the largest repository host with more than 38+ million projects
+
+
+It has size limitations. The file size can’t be more than 100 Mb while the repository can host 1Gb of information.
+
+
+Commit History can be seen
+
+
+Pull requests with code review and comments
+
+
+Gitlab
+
+GitLab was launched as a project in 2011.
+It do almost everything that GitHub does, so it is like Github, but here we have free private repositories
+that github doesn’t
+GitLab Community Edition is free and open sourced.
+we can set and modify people’s permissions according to their role.
+In this, you can attach any file to any issue. You can’t do this inside GitHub.
+The source code of GitLab Community Edition is available on their website
+It has relatively slow interface
+Issue Tracker
+Commit graph and reporting tools
+Create new issues from the Issue Board
+Ease of migration from other providers
+
+
+
+Bitbucket
+
+Bitbucket was launched in 2008 initially supporting Mercurial Projects.
+It supports the Mercurial VCS(version control system) in addition to Git
+It is not open source but by buying the self-hosted version the full source code is provided.
+Bitbucket is written in Python and uses the Django web framework.
+We get free private repositories on Bitbucket
+It offers both commercial plans and free accounts with an unlimited number of private repositories
+Imports existing Git projects from Excel, Github, etc.
+Code search is possible
+Pull requests with code review and comments

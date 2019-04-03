@@ -1,0 +1,81 @@
+--- Add this test repo as submodule inside your git repo.
+  147 git status
+  148  pwd
+  149  mkdir new_repo
+  150  cd new_repo/
+  151  git init
+  152  ls -al
+  153  touch 1.txt
+  154  vi 1.txt 
+  155  git add 1.txt                // Added the file 1.txt in staging area
+  156  git commit -am " first commit"g    // Commited changes
+  157  git origin add https://github.com/arorah23/test.git/   //Connecting remote repo with local repo
+  158  git remote add origin https://github.com/arorah22/test.git
+  159  cd .git/
+  160  cat config 
+  161  cd ..
+  162  git config --global user.name "arorah23"
+  163  git config --global user.email "arorah@outlook.in"
+  164  git push -u origin master   //Pushing local repo to Github
+  166  git status
+  167  git log
+  168  git branch
+  169  git checkout -b test_branch     //Creatin g a branch & Checking out in slave branch
+  170  ls
+  171  vi 1.txt 
+  172  git add 1.txt 
+  173  git statu
+  174  git status
+  175  git commit -am "first commit in branch"
+  176  git push -u origin test_branch
+  177  cd ..
+  178  mkdir submod
+  179  cd submod
+  180  git init
+  181  touch one.txt
+  182  vim one.txt
+  183  git add one.txt
+  184  git commit one.txt
+  185  git commit one.txt -am "this is new commit"
+  186  git commit -am "this is new commit"
+  187  git remote add origin https://github.com/arorah23/Submod.git
+  188  git config --global user.name "arorah23"
+  189  git config --global user.email "arorah@outlook.in"
+  190  git push -u origin master
+  191  cd ..
+  192  cd test_repo
+  193  cd test
+  194  LS
+  195  ls
+  196  git submodule add https://github.com/arorah23/Submod.git
+  197  ls -al
+  198  cd submod
+  199  cd sSubmod
+  200  cd Submod
+  201  ls
+  
+ //Clone git repo with submodule.
+  202  git clone --recursive https://github.com/arorah23/test.git // Cloning git repo with submodule  to Github
+  203  cd ..
+  204  ls
+  205  cd submod
+  206  cd Submod
+  207  ls
+  208  cd test
+  209  LS
+  210  ls
+  211  history
+  212  git commit -am "this is a new commit after submod"
+  213  cd ..
+  214  git commit -am "this is a new commit after submod"
+  215  git push -u origin master
+  216    202  git clone --recursive https://github.com/arorah23/test.git 
+  217  git clone --recursive https://github.com/arorah23/test.git
+  218  ls
+  219  cd test
+  220  LS
+  221  ls
+  222  cd Submod
+  223  ls
+  224  ls -al
+
